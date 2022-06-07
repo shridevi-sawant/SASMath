@@ -40,13 +40,13 @@
 		607FACE51AFB9204008FA782 /* SASMath_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SASMath_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6271A881C201C441D707D63D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6271A881C201C441D707D63D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7865D86F5BB9E03B808DC5CC /* Pods-SASMath_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SASMath_Example.release.xcconfig"; path = "Target Support Files/Pods-SASMath_Example/Pods-SASMath_Example.release.xcconfig"; sourceTree = "<group>"; };
-		838094FBEE30E5C7C2E121E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		838094FBEE30E5C7C2E121E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9CC204F9A4C65602BEA7AE6E /* Pods_SASMath_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SASMath_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF8FF2780274AA7D09AB3810 /* Pods_SASMath_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SASMath_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E300C525B6CEB3D16C06CBAA /* Pods-SASMath_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SASMath_Tests.release.xcconfig"; path = "Target Support Files/Pods-SASMath_Tests/Pods-SASMath_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EE7E157A7737155A964B7ABE /* SASMath.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SASMath.podspec; path = ../SASMath.podspec; sourceTree = "<group>"; };
+		EE7E157A7737155A964B7ABE /* SASMath.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SASMath.podspec; path = ../SASMath.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				33CDC9D420BF7F135E204A6E /* Pods-SASMath_Tests.debug.xcconfig */,
 				E300C525B6CEB3D16C06CBAA /* Pods-SASMath_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
