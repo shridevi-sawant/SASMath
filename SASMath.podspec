@@ -31,6 +31,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'Classes/**/*'
+  s.swift_versions = '5.0'
   
   # s.resource_bundles = {
   #   'SASMath' => ['SASMath/Assets/*.png']
