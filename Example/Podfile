@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SASMath_Example' do
+  pod 'SASMath', :path => '../'
+
+  target 'SASMath_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
